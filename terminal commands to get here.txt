@@ -1,0 +1,14 @@
+npm init
+  in npm init it will walk you through a wizard to config your init file
+  the only important thing is to put "karma start" in for the test command.
+npm i jasmine-core karma karma-jasmine karma-jasmine-matchers puppeteer karma-chrome-launcher --save-dev
+now karma start should start the test runner and a local server on port 9876
+
+jasmine is the testing package
+karma runs the tests and gives you feedback on results
+
+puppeteer is used to run headless. Ie without an open browser. it is made by google
+
+istanbul karma-cli karma-coverage are all used to report on code coverage
+  as currently configured it creates a page at coverage/html/index.html
+  

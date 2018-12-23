@@ -1,0 +1,22 @@
+{
+  "name": "simple_jasmine_setup",
+  "version": "0.0.1",
+  "description": "tutorial for jasmine and karma setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "jasmine-core": "^3.3.0",
+    "karma": "^3.1.4",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-cli": "^2.0.0",
+    "karma-coverage": "^1.1.2",
+    "karma-jasmine": "^2.0.1",
+    "karma-jasmine-matchers": "^3.8.4",
+    "puppeteer": "^1.11.0"
+  }
+}
